@@ -1,13 +1,2 @@
-package application;
-
-import Chess.ChessMatch;
-
-public class Program {
-
-	public static void main(String[] args) {
-		
-		ChessMatch chessMatch = new ChessMatch ();
-		UI.printBoard(chessMatch.getPieces()); 
-		}
-
-	}
+Jogo de Xadrez em Java
+Este é um simples jogo de xadrez implementado em Java. Permite que dois jogadores joguem uma partida de xadrez no terminal.
